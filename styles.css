@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue',
+    Helvetica, Arial, 'Lucida Grande', sans-serif;
+  font-weight: 300;
+}
+#menuBar {
+  width: 100%;
+  height: 40px;
+  background-color: #e0e0e0;
+  border-bottom: 1px solid gray;
+}
+#logo {
+  padding: 5px 0 0 20px;
+  font-weight: bold;
+  font-size: 120%;
+  float: left;
+}
+#buttonDiv {
+  float: right;
+  padding: 5px 10px 0 0;
+}
+#runButton {
+  padding: 2px 10px;
+  font-size: 120%;
+}
+
+#toggles {
+  padding: 0;
+  width: 191.5px;
+  margin: 0 auto;
+  list-style: none;
+  border: 1px solid gray;
+  border-radius: 5px;
+  height: 27px;
+  position: relative;
+  top: 5px;
+}
+#toggles li {
+  float: left;
+  border-right: 1px solid gray;
+  padding: 4px 5px;
+}
+#toggles li:last-child {
+  border-right: none;
+}
+
+.clear {
+  clear: both;
+}
+
+.codeContainer {
+  /* background-color: lightblue; */
+  height: 100%;
+  width: 50%;
+  float: left;
+  position: relative;
+}
+.codeContainer textarea {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-right: 1px solid gray;
+  font-family: monospace;
+  font-size: 1.3rem;
+  box-sizing: border-box;
+  padding: 5px;
+}
+.codeLabel {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+#CSSContainer,
+#JSContainer {
+  display: none;
+}
+iframe {
+  height: 100%;
+  border: none;
+}
+
+.selected {
+  background-color: gray;
+}
